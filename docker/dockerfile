@@ -1,4 +1,4 @@
-FROM "ubuntu:bionic"
+FROM "ubuntu:latest"
 RUN apt-get update && yes | apt-get upgrade
 # RUN mkdir -p /tensorflow/models
 # RUN apt-get install -y git python-pip

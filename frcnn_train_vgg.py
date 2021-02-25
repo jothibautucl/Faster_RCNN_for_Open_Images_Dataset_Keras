@@ -45,6 +45,7 @@ def train_rpn(num_epochs, epoch_length, r_epochs, total_epochs, best_loss):
                         # elapsed_time = (time.time() - start_time) / 60
 
                     curr_loss = loss_rpn_cls + loss_rpn_regr
+                    iter_num = 0
 
                     # loss_rpn_cls_at_epoch[epoch_num] = loss_rpn_cls
                     # loss_rpn_regr_at_epoch[epoch_num] = loss_rpn_regr
